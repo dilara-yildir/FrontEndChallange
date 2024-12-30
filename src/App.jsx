@@ -10,7 +10,7 @@ export default function App() {
     <ThemeProvider>
       <Header />
       <Skills />
-      <Profile />
+      <Profile  />
       <Projects />
       <Footer />
     </ThemeProvider>
