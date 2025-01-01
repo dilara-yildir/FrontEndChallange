@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Tailwind kullanarak özelleştirme */
 body {
   @apply bg-white text-black;
 }
@@ -11,13 +10,11 @@ body.dark {
   @apply bg-black text-white;
 }
 
-button {
-  @apply px-4 py-2 rounded bg-gray-200 text-black;
-}
 
-body.dark button {
-  @apply bg-green-800 text-white;
-}
+
+
+
+
 body {
   @apply transition-colors duration-300 ease-in-out;
 }
@@ -30,7 +27,6 @@ body.dark header {
 
 body.dark section {
   @apply bg-customSkillDark text-gray-200;
-  
 }
 body.dark section .max-w-6xl {
   @apply text-customTitleSkillDark;
@@ -44,16 +40,67 @@ section .mt-2 {
 body.dark section .mt-2 {
   @apply text-white;
 }
+
+.profile {
+  @apply bg-customBlue text-white;
+}
+body.dark .profile {
+  @apply bg-customDarkBlue text-gray-200;
+}
+
+.theme-label {
+  @apply text-customBlue;
+}
+body.dark .theme-label {
+  @apply text-customLightModeColor;
+}
+
 .headerss {
-  background: linear-gradient(to right, #4731D3 73%, #CBF281 27%);
+  background: linear-gradient(to right, #4731d3 64%, #cbf281 36%);
 }
 body.dark .headerss {
-  background: linear-gradient(to right, #171043 73%, #19210B 27%);
+  background: linear-gradient(to right, #171043 64%, #19210b 36%);
 }
+
+.footer {
+  @apply bg-white text-black;
+}
+body.dark .footer {
+  @apply bg-customSkillDark text-gray-200;
+}
+
+.project-head {
+  @apply bg-customTitleSkillDark text-white;
+}
+body.dark .project-head {
+  @apply bg-customHeadRightDark text-gray-200;
+}
+
+@media (max-width: 768px) {
+  .theme-label {
+    @apply text-white;
+  }
+  body.dark .theme-label {
+    @apply text-white;
+  }
+  .project {
+    @apply p-10;
+  }
+  .headerss {
+    background: #4731d3; /* Sadece sol taraftaki renk */
+  }
+
+  body.dark .headerss {
+    background: #171043; /* Sadece sol taraftaki koyu renk */
+  }
+}
+
+
 
 .switch {
   display: inline-block;
   position: relative;
+  
 }
 
 .switch__input {
@@ -70,14 +117,25 @@ body.dark .headerss {
 .switch__label {
   position: relative;
   display: inline-block;
-  width: 120px;
-  height: 60px;
-  background-color: #2B2B2B;
-  border: 5px solid #5B5B5B;
+  width: 60px;
+  height: 24px;
+  background-color: #3A3A3A;
   border-radius: 9999px;
   cursor: pointer;
-  transition: all 0.4s cubic-bezier(.46,.03,.52,.96);
+  transition: all 0.4s cubic-bezier(0.46, 0.03, 0.52, 0.96);
 }
+
+/*.switch__indicator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) translateX(-72%);
+  display: block;
+  width: 15px;
+  height: 16px;
+  background-color: #ffd500;;
+  border-radius: 9999px;
+}*/
 
 .switch__indicator {
   position: absolute;
@@ -85,153 +143,90 @@ body.dark .headerss {
   left: 50%;
   transform: translate(-50%, -50%) translateX(-72%);
   display: block;
-  width: 40px;
-  height: 40px;
-  background-color: #7B7B7B;
-  border-radius: 9999px;
-  box-shadow: 10px 0px 0 0 rgba(#000000, 0.2) inset;
-
-  &::before,
-  &::after {
-      position: absolute;
-      content: '';
-      display: block;
-      background-color: #FFFFFF;
-      border-radius: 9999px;
-  }
-
-  &::before {
-      top: 7px;
-      left: 7px;
-      width: 9px;
-      height: 9px;
-      background-color: #FFFFFF;
-      opacity: 0.6;
-  }
-
-  &::after {
-      bottom: 8px;
-      right: 6px;
-      width: 14px;
-      height: 14px;
-      background-color: #FFFFFF;
-      opacity: 0.8;
-  }
+  width: 20px;
+  height: 20px;
+  background-color: #ffd50000;
+  /* Ayın ana rengi */
+  border-radius: 50%;
+  /* Daire oluşturur */
+  box-shadow: inset 7px 0 0 #ffd500;
+  /* İç gölgeyi sağ tarafa kaydırır */
 }
-
-.switch__decoration {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  display: block;
-  width: 5px;
-  height: 5px;
-  background-color: #FFFFFF;
-  border-radius: 9999px;
-  animation: twinkle 0.8s infinite -0.6s;
-
-  &::before,
-  &::after {
-      position: absolute;
-      display: block;
-      content: '';
-      width: 5px;
-      height: 5px;
-      background-color: #FFFFFF;
-      border-radius: 9999px;
-  }
-
-  &::before {
-      top: -20px;
-      left: 10px;
-      opacity: 1;
-      animation: twinkle 0.6s infinite;
-  }
-
-  &::after {
-      top: -7px;
-      left: 30px;
-      animation: twinkle 0.6s infinite -0.2s;
-  }
-}
-
 @keyframes twinkle {
-  50% { opacity: 0.2; }
+  50% {
+    opacity: 0.2;
+  }
 }
 
 .switch__indicator {
   &,
   &::before,
   &::after {
-      transition: all 0.4s cubic-bezier(.46,.03,.52,.96);
+    transition: all 0.4s cubic-bezier(0.46, 0.03, 0.52, 0.96);
   }
 }
 
 .switch__input:checked + .switch__label {
-  background-color: #8FB5F5;
-  border-color: #347CF8;
+  background-color:#8f88Ff;
+  
 
   .switch__indicator {
-      background-color: #ECD21F;
-      box-shadow: none;
-      transform: translate(-50%, -50%) translateX(72%);
+    background-color: #ffd500;
+    box-shadow: none;
+    transform: translate(-50%, -50%) translateX(72%);
 
-      &::before,
-      &::after {
-          display: none;
-      }
+    &::before,
+    &::after {
+      display: none;
+    }
   }
 
   .switch__decoration {
-      top: 50%;
-      transform: translate(0%, -50%);
-      animation: cloud 8s linear infinite;
+    top: 50%;
+    transform: translate(0%, -50%);
+    animation: cloud 8s linear infinite;
 
-      width: 20px;
-      height: 20px;
+    width: 20px;
+    height: 20px;
 
-      &::before {
-          width: 10px;
-          height: 10px;
-          top: auto;
-          bottom: 0;
-          left: -8px;
-          animation: none;
-      }
+    &::before {
+      width: 10px;
+      height: 10px;
+      top: auto;
+      bottom: 0;
+      left: -8px;
+      animation: none;
+    }
 
-      &::after {
-          width: 15px;
-          height: 15px;
-          top: auto;
-          bottom: 0;
-          left: 16px;
-          animation: none;
-      }
+    &::after {
+      width: 15px;
+      height: 15px;
+      top: auto;
+      bottom: 0;
+      left: 16px;
+      animation: none;
+    }
 
-      &,
-      &::before,
-      &::after {
-          border-radius: 9999px 9999px 0 0;
-      }
+    &,
+    &::before,
+    &::after {
+      border-radius: 9999px 9999px 0 0;
+    }
 
-      &::after {
-          border-bottom-right-radius: 9999px;
-      }
+    &::after {
+      border-bottom-right-radius: 9999px;
+    }
   }
 }
 
 @keyframes cloud {
   0% {
-      transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
   }
   50% {
-      transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
   100% {
-      transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
   }
 }
-
-
-
-

@@ -1,0 +1,192 @@
+[
+  {
+    "en": {
+      "hero": {
+        "title": "Dilara Yıldır",
+        "name": "I am a Frontend Developer...",
+        "description": "...who likes to craft solid and scalable frontend products with great user experiences.",
+        "buttons": [
+          { "label": "Github", "url": "https://github.com/dilara-yildir" },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/dilara-y%C4%B1ld%C4%B1r-774889338/"
+          }
+        ],
+        "image": "https://via.placeholder.com/300"
+      },
+      "skillstitle": "Skills",
+      "skills": [
+        {
+          "name": "JAVASCRIPT",
+          "color": "bg-yellow-400",
+          "src": "src//assets//js-logo-1-1.png"
+        },
+        {
+          "name": "NODE",
+          "color": "bg-green-600",
+          "src": "src//assets//node-logo-1.png"
+        },
+        {
+          "name": "REACT",
+          "color": "bg-blue-500",
+          "src": "src//assets//Rectangle-35.png"
+        },
+        {
+          "name": "REDUX",
+          "color": "bg-purple-500",
+          "src": "src//assets//Group-101.png"
+        },
+        {
+          "name": "VS CODE",
+          "color": "bg-gray-700",
+          "src": "src//assets//Rectangle-34.png"
+        },
+        {
+          "name": "FIGMA",
+          "color": "bg-pink-500",
+          "src": "src//assets//figma-logo-1.png"
+        }
+      ],
+      "profileTitleBasic": "Basic Information",
+      "profileTitle": "Profile",
+      "profile": {
+        "info": [
+          { "key": "Date of Birth", "value": "17.10.1999" },
+          { "key": "Residence City", "value": "Istanbul" },
+          {
+            "key": "Learning at University",
+            "value": "Anadolu Üniversitesi Management Information System, Licence, 2024"
+          },
+          { "key": "Preferred Role", "value": "Frontend, UI" }
+        ],
+        "aboutTitle": "About Me",
+        "about": "Lorem ipsum dolor sit amet consectetur adipiscing elit...",
+        "about2": "Lorem ipsum dolor sit amet consectetur adipiscing elit..."
+      },
+      "projectsTitle": "Projects",
+      "projects": [
+        {
+          "name": "Workintech",
+          "description": "A simple, customizable minimal setup cookie plugin...",
+          "image": "src\\assets\\Rectangle-41.png",
+          "links": [
+            { "label": "View Site", "url": "https://example.com" },
+            { "label": "Github", "url": "https://github.com" }
+          ]
+        },
+        {
+          "name": "Journey",
+          "description": "A simple, customizable minimal setup cookie plugin...",
+          "image": "src\\assets\\Rectangle-41-1.png",
+          "links": [
+            { "label": "View Site", "url": "https://example.com" },
+            { "label": "Github", "url": "https://github.com" }
+          ]
+        }
+      ],
+      "footer": {
+        "title": "Footer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit...",
+        "links": [
+          { "label": "Github", "url": "" },
+          { "label": "LinkedIn", "url": "" }
+        ]
+      }
+    }
+  },
+  {
+    "tr": {
+      "hero": {
+        "title": "Dilara Yıldır",
+        "name": "Ben Ön Yüz Geliştiriciyim...",
+        "description": "...sağlam ve ölçeklenebilir ön uç ürünleri ve harika kullanıcı deneyimleri oluşturmayı seven birisiyim.",
+        "buttons": [
+          { "label": "Github", "url": "https://github.com/dilara-yildir" },
+          {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/in/dilara-y%C4%B1ld%C4%B1r-774889338/"
+          }
+        ],
+        "image": "https://via.placeholder.com/300"
+      },
+      "skillstitle": "Yetenekler",
+      "skills": [
+        {
+          "name": "JAVASCRIPT",
+          "color": "bg-yellow-400",
+          "src": "src//assets//js-logo-1-1.png"
+        },
+        {
+          "name": "NODE",
+          "color": "bg-green-600",
+          "src": "src//assets//node-logo-1.png"
+        },
+        {
+          "name": "REACT",
+          "color": "bg-blue-500",
+          "src": "src//assets//Rectangle-35.png"
+        },
+        {
+          "name": "REDUX",
+          "color": "bg-purple-500",
+          "src": "src//assets//Group-101.png"
+        },
+        {
+          "name": "VS CODE",
+          "color": "bg-gray-700",
+          "src": "src//assets//Rectangle-34.png"
+        },
+        {
+          "name": "FIGMA",
+          "color": "bg-pink-500",
+          "src": "src//assets//figma-logo-1.png"
+        }
+      ],
+      "profileTitleBasic": "Kişisel Bilgiler",
+      "profileTitle": "Profil",
+      "profile": {
+        "info": [
+          { "key": "Doğum tarihi", "value": "17.10.1999" },
+          { "key": "İkamet Şehri", "value": "İstanbul" },
+          {
+            "key": "Eğitim Durumu",
+            "value": "Anadolu Üniversitesi Yönetim Bilişim Sistemleri, Lisans, 2024"
+          },
+          { "key": "Tercih Ettiği Rol", "value": "Frontend, UI" }
+        ],
+        "aboutTitle": "Hakkımda",
+        "about": "türkçe hakkımda 1 Lorem ipsum dolor sit amet consectetur adipiscing elit...",
+        "about2": "turkçe hakkımda 2 Lorem ipsum dolor sit amet consectetur adipiscing elit..."
+      },
+      "projectsTitle": "Projeler",
+      "projects": [
+        {
+          "name": "Workintech",
+          "image": "src\\assets\\Rectangle-41.png",
+          "description": "...sağlam ve ölçeklenebilir ön uç ürünleri ve harika kullanıcı deneyimleri oluşturmayı seven birisiyim.",
+          "links": [
+            { "label": "View Site", "url": "https://example.com" },
+            { "label": "Github", "url": "https://github.com" }
+          ]
+        },
+        {
+          "name": "Journey",
+          "image": "src\\assets\\Rectangle-41-1.png",
+          "description": "...sağlam ve ölçeklenebilir ön uç ürünleri ve harika kullanıcı deneyimleri oluşturmayı seven birisiyim.",
+          "links": [
+            { "label": "View Site", "url": "https://example.com" },
+            { "label": "Github", "url": "https://github.com" }
+          ]
+        }
+      ],
+      "footer": {
+        "title": "Footer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit...",
+        "links": [
+          { "label": "Github", "url": "" },
+          { "label": "LinkedIn", "url": "" }
+        ]
+      }
+    }
+  }
+]

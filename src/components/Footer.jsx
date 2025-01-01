@@ -1,14 +1,52 @@
 export default function Footer() {
-    return (
-      <footer className="p-8 bg-purple-900 text-white text-center">
-        <p className="text-lg">Got a question or proposal, or just want to say hello? Go ahead.</p>
-        <p className="mt-4">almilas@example.com</p>
-        <div className="mt-6 flex justify-center gap-4">
-          <a href="#" className="text-white">Twitter</a>
-          <a href="#" className="text-white">LinkedIn</a>
-          <a href="#" className="text-white">Github</a>
-        </div>
-      </footer>
-    );
-  }
-  
+  return (
+    <footer className="footer p-8 text-center bg-white dark:bg-gray-900">
+      {/* Başlık */}
+      <div className="max-w-3xl mx-auto">
+        <h2 className="text-2xl sm:text-3xl font-bold text-purple-600 mb-4">
+          Send me a message!
+        </h2>
+        <p className="text-lg sm:text-xl text-gray-700 dark:text-gray-300">
+          Got a question or proposal, or just want to say hello? Go ahead.
+        </p>
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-purple-600">
+          <a href="mailto:almilas@example.com" className="hover:underline">
+            almilas@example.com
+          </a>
+        </p>
+      </div>
+
+      {/* Sosyal Medya Linkleri */}
+      <div className="mt-6 flex justify-center gap-6">
+        <a
+          href="#"
+          className="text-purple-600 dark:text-purple-400 hover:text-purple-400 transition-colors"
+          aria-label="Twitter"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            className="w-6 h-6"
+          >
+            <path d="M23.954 4.569c-.885.392-1.83.656-2.825.775a4.932 4.932 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.708.87 3.216 2.188 4.096a4.904 4.904 0 01-2.23-.616v.061c0 2.385 1.693 4.374 3.946 4.827a4.902 4.902 0 01-2.224.084c.626 1.956 2.444 3.376 4.604 3.417a9.867 9.867 0 01-6.102 2.105c-.396 0-.787-.023-1.17-.067a13.897 13.897 0 007.557 2.212c9.056 0 14.01-7.496 14.01-13.986 0-.213-.004-.425-.014-.637a9.935 9.935 0 002.453-2.548l-.047-.02z" />
+          </svg>
+        </a>
+        <a
+          href="#"
+          className="text-purple-600 dark:text-purple-400 hover:text-purple-400 transition-colors"
+          aria-label="Dribbble"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            className="w-6 h-6"
+          >
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 6.627 5.373 12 12 12 6.627 0 12-5.373 12-12C24 5.373 18.627 0 12 0zm7.868 8.045c.559 1.158.89 2.434.953 3.788-.195-.045-2.18-.487-4.334-.181-.01-.025-.024-.046-.033-.071a38.982 38.982 0 00-.7-1.703c1.997-.84 3.445-1.86 4.114-2.833zm-6.57-.462c-1.358-.441-2.591-.647-3.672-.647-.282 0-.548.017-.805.035.746-1.263 1.824-2.235 3.095-2.799 1.08.89 2.154 1.83 3.199 2.84-1.058.413-1.968.862-2.818 1.332zm-2.734 1.569c.98 0 1.992.154 3.039.488.205.477.406.964.6 1.457-.21.092-.429.188-.66.293-2.594-1.294-5.32-1.93-8.172-1.902.846-1.6 2.26-2.872 3.978-3.513.8.959 1.61 1.946 2.435 2.89a21.52 21.52 0 01-1.22-.713zm4.246 4.4c-.117.048-.233.093-.352.141.006.023.015.046.021.068.174.61.333 1.228.482 1.843-.494.158-1.009.308-1.542.454-1.095-2.606-2.395-5.262-3.878-7.891 1.374-.005 3.45.287 5.899 1.58-.079.14-.164.277-.253.418-.538-.081-1.057-.124-1.578-.124zm3.598 3.098c-1.282.726-2.685 1.252-4.16 1.56.106-.421.209-.837.307-1.244.526-.134 1.036-.276 1.532-.427 1.454.669 2.818 1.434 4.038 2.301a9.072 9.072 0 01-1.717 2.023zm-7.343 3.648c-2.57-.354-4.848-1.54-6.518-3.308.44-.348.899-.69 1.375-1.027 1.632 1.644 3.57 2.722 5.643 3.208zm4.287-5.086c.562-.151 1.097-.304 1.603-.468-.293.96-.633 1.91-1.011 2.835-1.164-.573-2.482-1.16-3.916-1.746.365-.151.727-.307 1.087-.465a8.981 8.981 0 002.237-.156z" />
+          </svg>
+        </a>
+      </div>
+    </footer>
+  );
+}
