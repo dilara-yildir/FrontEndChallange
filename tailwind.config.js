@@ -20,9 +20,7 @@ export default {
         customCardColorDark: ' #2B2727', 
         customCardTextColorDark: '#FFFFFF',
         customLightModeColor: '#D9D9D9',
-
-
-
+        customDark: "#8F88FF",
 
 
       },

@@ -11,7 +11,10 @@ export default function Projects() {
         <div className="flex flex-col gap-8">
           {languageData.projects.map((project, index) => (
             // Project Card 1
-            <div className="flex flex-col md:flex-row bg-white dark:bg-customCardColorDark rounded-lg shadow-lg overflow-hidden">
+            <div
+              key={index}
+              className="flex flex-col md:flex-row bg-white dark:bg-customCardColorDark rounded-lg shadow-lg overflow-hidden"
+            >
               {/* Image Section */}
               <div className="md:w-1/3">
                 <img
@@ -44,6 +47,7 @@ export default function Projects() {
                 <div className="flex gap-2  ">
                   {project.links.map((link, index) => (
                     <a
+                      key={index}
                       href={link.url}
                       className="py-2  text-customLinkColor dark:text-customTitleSkillDark text-s font-small rounded underline"
                     >

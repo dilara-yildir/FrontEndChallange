@@ -20,7 +20,7 @@ export default function Skills() {
           <div className="col-span-2 grid grid-cols-2 gap-y-4 gap-x-6">
             {/* JavaScript */}
             {languageData.skills.map((skill, index) => (
-              <div className="flex items-center">
+              <div key={index} className="flex items-center">
                 <img src={skill.src} alt="JavaScript" className="w-28 h-28" />
                 <p className="ml-4 text-2xl font-small text-customGray dark:text-customGrayDark">
                   {skill.name}

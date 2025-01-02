@@ -1,9 +1,11 @@
 import { useTheme } from "../context/ThemeContext";
 
 export default function Header() {
-  const { darkMode, toggleData,toggleTheme, languageData, selectedLanguage } = useTheme();
+  const { darkMode, toggleData, toggleTheme, languageData, selectedLanguage } =
+    useTheme();
   const { hero } = languageData;
   const { buttons } = hero;
+  const switchStatus = localStorage.getItem("darkMode") === "true";
 
   return (
     <header className="headerss  flex flex-col items-center w-full h-auto">
@@ -31,13 +33,14 @@ export default function Header() {
                 type="checkbox"
                 className="switch__input"
                 id="Switch"
+                defaultChecked={!switchStatus}
               />
               <label className="switch__label" htmlFor="Switch">
                 <span className="switch__indicator"></span>
                 <span className="switch__decoration"></span>
               </label>
             </div>
-            <span className="theme-label text-sm font-bold  text-customBlue dark:text-white">
+            <span className="theme-label  text-sm   text-customBlue dark:text-white">
               {!darkMode ? "DARK MODE" : "LIGHT MODE"}
             </span>
           </div>
