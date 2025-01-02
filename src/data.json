@@ -4,7 +4,7 @@
       "hero": {
         "title": "Dilara Yıldır",
         "name": "I am a Frontend Developer...",
-        "description": "...who likes to craft solid and scalable frontend products with great user experiences.",
+        "description": "Someone who enjoys developing robust and scalable frontend products that deliver impactful experiences for users.",
         "buttons": [
           { "label": "Github", "url": "https://github.com/dilara-yildir" },
           {
@@ -54,52 +54,74 @@
           { "key": "Date of Birth", "value": "17.10.1999" },
           { "key": "Residence City", "value": "Istanbul" },
           {
-            "key": "Learning at University",
-            "value": "Anadolu Üniversitesi Management Information System, Licence, 2024"
+            "key": "Education",
+            "value": "Anadolu Univ. Management Information System, Licence, 2024"
           },
           { "key": "Preferred Role", "value": "Frontend, UI" }
         ],
         "aboutTitle": "About Me",
-        "about": "Lorem ipsum dolor sit amet consectetur adipiscing elit...",
-        "about2": "Lorem ipsum dolor sit amet consectetur adipiscing elit..."
+        "about": "During my undergraduate studies, my interest in the world of software grew steadily after completing voluntary internships, and I decided to improve myself in this field.",
+        "about2": "I completed a 6-month intensive Full Stack Web Development training program at Workintech, where I learned technologies such as JavaScript, React, Node.js, and Java."
       },
       "projectsTitle": "Projects",
       "projects": [
         {
-          "name": "Workintech",
+          "name": "Order Pizza Website",
+          "description": "This is a dynamically created Single Page Application (SPA) project built using React. Data management is handled through event handlers and state management. It performs data validation using validation techniques and simulates pizza orders via Axios requests.",
+          "image": "src\\assets\\Rectangle-41-1.png",
+          "links": [
+            { "label": "View Site", "url": "https://example.com" },
+            { "label": "Github", "url": "https://github.com/dilara-yildir" }
+          ]
+        },
+        {
+          "name": "WitFlix | Netflix Clone",
           "description": "A simple, customizable minimal setup cookie plugin...",
           "image": "src\\assets\\Rectangle-41.png",
           "links": [
             { "label": "View Site", "url": "https://example.com" },
-            { "label": "Github", "url": "https://github.com" }
-          ]
-        },
-        {
-          "name": "Journey",
-          "description": "A simple, customizable minimal setup cookie plugin...",
-          "image": "src\\assets\\Rectangle-41-1.png",
-          "links": [
-            { "label": "View Site", "url": "https://example.com" },
-            { "label": "Github", "url": "https://github.com" }
+            { "label": "Github", "url": "https://github.com/dilara-yildir" }
           ]
         }
       ],
       "footer": {
-        "title": "Footer",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit...",
+        "title": "Send me a message!",
+        "description": "Got a question or proposal, or just want to say hello? Go ahead.",
+        "email": "larayildir03@gmail.com",
         "links": [
-          { "label": "Github", "url": "" },
-          { "label": "LinkedIn", "url": "" }
+          {
+            "src": "src//assets//twitter1.png",
+            "src2": "src//assets//twitter2.png",
+            "url": "https://github.com/dilara-yildir"
+          },
+          {
+            "src": "src//assets//codepen.png",
+            "src2": "src//assets//codepen2.png",
+            "url": "https://github.com/dilara-yildir"
+          },
+          {
+            "src": "src//assets//at-sign.png",
+            "src2": "src//assets//at-sign2.png",
+            "url": "https://github.com/dilara-yildir"
+          },
+          {
+            "src": "src//assets//instagram.png",
+            "src2": "src//assets//instagram2.png",
+            "url": "https://github.com/dilara-yildir"
+          }
         ]
       }
     }
   },
+
+
+
   {
     "tr": {
       "hero": {
         "title": "Dilara Yıldır",
-        "name": "Ben Ön Yüz Geliştiriciyim...",
-        "description": "...sağlam ve ölçeklenebilir ön uç ürünleri ve harika kullanıcı deneyimleri oluşturmayı seven birisiyim.",
+        "name": "Ön yüz teknolojileri alanında bir geliştiriciyim... ",
+        "description": "Kullanıcılar için etkileyici deneyimler sunan, sağlam ve ölçeklenebilir ön yüz ürünleri geliştirmeyi seven biri.",
         "buttons": [
           { "label": "Github", "url": "https://github.com/dilara-yildir" },
           {
@@ -155,36 +177,55 @@
           { "key": "Tercih Ettiği Rol", "value": "Frontend, UI" }
         ],
         "aboutTitle": "Hakkımda",
-        "about": "türkçe hakkımda 1 Lorem ipsum dolor sit amet consectetur adipiscing elit...",
-        "about2": "turkçe hakkımda 2 Lorem ipsum dolor sit amet consectetur adipiscing elit..."
+        "about": "Lisans eğitimim sırasında yapmış olduğum gönüllü stajlardan sonra yazılım dünyasına ilgim giderek arttı ve bu alanda kendimi geliştirmeye karar verdim.",
+        "about2": "Workintech'te 6 aylık yoğun bir Full Stack Web Development eğitimi aldım ve bu süreçte JavaScript, React, Node.js, Java gibi teknolojileri öğrendim."
       },
       "projectsTitle": "Projeler",
       "projects": [
         {
-          "name": "Workintech",
-          "image": "src\\assets\\Rectangle-41.png",
-          "description": "...sağlam ve ölçeklenebilir ön uç ürünleri ve harika kullanıcı deneyimleri oluşturmayı seven birisiyim.",
+          "name": "WitFlix | Netflix Clone",
+          "image": "src\\assets\\Rectangle-41-1.png",
+          "description": "",
           "links": [
             { "label": "View Site", "url": "https://example.com" },
-            { "label": "Github", "url": "https://github.com" }
+            { "label": "Github", "url": "https://github.com/dilara-yildir" }
           ]
         },
         {
-          "name": "Journey",
-          "image": "src\\assets\\Rectangle-41-1.png",
-          "description": "...sağlam ve ölçeklenebilir ön uç ürünleri ve harika kullanıcı deneyimleri oluşturmayı seven birisiyim.",
+          "name": "Pizza Sipariş Sitesi",
+          "image": "src\\assets\\Rectangle-41.png",
+          "description": "React kullanarak dinamik bir şekilde oluşturulmuş Single Page Application (SPA) projesidir. Veri yönetimini event handler ve state yönetimi ile sağlamaktadır. Validasyonlar kullanarak veri doğrulaması yapmaktadır. Pizza siparişini Axios request simülasyonu ile gerçekleştirmektedir.",
           "links": [
             { "label": "View Site", "url": "https://example.com" },
-            { "label": "Github", "url": "https://github.com" }
+            { "label": "Github", "url": "https://github.com/dilara-yildir" }
           ]
         }
       ],
       "footer": {
-        "title": "Footer",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit...",
+        "title": "Bana Ulaşın!",
+        "description": "Herhangi bir sorunuz, öneriniz ya da sadece sohbet etmek istediğiniz bir konu mu var? Mesajınızı bekliyorum!",
+        "email":"larayildir03@gmail.com",
         "links": [
-          { "label": "Github", "url": "" },
-          { "label": "LinkedIn", "url": "" }
+          {
+            "src": "src//assets//twitter1.png",
+            "src2": "src//assets//twitter2.png",
+            "url": "https://github.com/dilara-yildir"
+          },
+          {
+            "src": "src//assets//codepen.png",
+            "src2": "src//assets//codepen2.png",
+            "url": "https://github.com/dilara-yildir"
+          },
+          {
+            "src": "src//assets//at-sign.png",
+            "src2": "src//assets//at-sign2.png",
+            "url": "https://github.com/dilara-yildir"
+          },
+          {
+            "src": "src//assets//instagram.png",
+            "src2": "src//assets//instagram2.png",
+            "url": "https://github.com/dilara-yildir"
+          }
         ]
       }
     }

@@ -79,6 +79,7 @@ body.dark .project-head {
 @media (max-width: 768px) {
   .theme-label {
     @apply text-white;
+    
   }
   body.dark .theme-label {
     @apply text-white;
@@ -94,8 +95,6 @@ body.dark .project-head {
     background: #171043; /* Sadece sol taraftaki koyu renk */
   }
 }
-
-
 
 .switch {
   display: inline-block;
@@ -119,7 +118,7 @@ body.dark .project-head {
   display: inline-block;
   width: 60px;
   height: 24px;
-  background-color: #3A3A3A;
+  background-color: #3a3a3a;
   border-radius: 9999px;
   cursor: pointer;
   transition: all 0.4s cubic-bezier(0.46, 0.03, 0.52, 0.96);
@@ -145,7 +144,7 @@ body.dark .project-head {
   display: block;
   width: 20px;
   height: 20px;
-  background-color: #ffd50000;
+  background-color: #ffd50000 ;
   /* Ayın ana rengi */
   border-radius: 50%;
   /* Daire oluşturur */
