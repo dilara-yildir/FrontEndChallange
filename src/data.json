@@ -19,32 +19,32 @@
         {
           "name": "JAVASCRIPT",
           "color": "bg-yellow-400",
-          "src": "public//assets//js-logo-1-1.png"
+          "src": "assets//js-logo-1-1.png"
         },
         {
           "name": "NODE",
           "color": "bg-green-600",
-          "src": "public//assets//node-logo-1.png"
+          "src": "assets//node-logo-1.png"
         },
         {
           "name": "REACT",
           "color": "bg-blue-500",
-          "src": "public//assets//Rectangle-35.png"
+          "src": "assets//Rectangle-35.png"
         },
         {
           "name": "REDUX",
           "color": "bg-purple-500",
-          "src": "public//assets//Group-101.png"
+          "src": "assets//Group-101.png"
         },
         {
           "name": "VS CODE",
           "color": "bg-gray-700",
-          "src": "public//assets//Rectangle-34.png"
+          "src": "assets//Rectangle-34.png"
         },
         {
           "name": "FIGMA",
           "color": "bg-pink-500",
-          "src": "public//assets//figma-logo-1.png"
+          "src": "assets//figma-logo-1.png"
         }
       ],
       "profileTitleBasic": "Basic Information",
@@ -71,7 +71,10 @@
           "image": "public\\assets\\Rectangle-41-1.png",
           "links": [
             { "label": "View Site", "url": "https://example.com" },
-            { "label": "Github", "url": "https://github.com/dilara-yildir/fsweb-s8-challenge-pizza" }
+            {
+              "label": "Github",
+              "url": "https://github.com/dilara-yildir/fsweb-s8-challenge-pizza"
+            }
           ]
         },
         {
@@ -80,7 +83,10 @@
           "image": "public\\assets\\Rectangle-41.png",
           "links": [
             { "label": "View Site", "url": "https://example.com" },
-            { "label": "Github", "url": "https://github.com/dilara-yildir/W-T1024-Witflix" }
+            {
+              "label": "Github",
+              "url": "https://github.com/dilara-yildir/W-T1024-Witflix"
+            }
           ]
         }
       ],
@@ -90,31 +96,29 @@
         "email": "larayildir03@gmail.com",
         "links": [
           {
-            "src": "public//assets//twitter1.png",
-            "src2": "public//assets//twitter2.png",
+            "src": "assets//twitter1.png",
+            "src2": "assets//twitter2.png",
             "url": "https://github.com/dilara-yildir"
           },
           {
-            "src": "public//assets//codepen.png",
-            "src2": "public//assets//codepen2.png",
+            "src": "assets//codepen.png",
+            "src2": "assets//codepen2.png",
             "url": "https://github.com/dilara-yildir"
           },
           {
-            "src": "public//assets//at-sign.png",
-            "src2": "public//assets//at-sign2.png",
+            "src": "assets//at-sign.png",
+            "src2": "assets//at-sign2.png",
             "url": "https://github.com/dilara-yildir"
           },
           {
-            "src": "public//assets//instagram.png",
-            "src2": "public//assets//instagram2.png",
+            "src": "assets//instagram.png",
+            "src2": "assets//instagram2.png",
             "url": "https://github.com/dilara-yildir"
           }
         ]
       }
     }
   },
-
-
 
   {
     "tr": {
@@ -136,32 +140,32 @@
         {
           "name": "JAVASCRIPT",
           "color": "bg-yellow-400",
-          "src": "public//assets//js-logo-1-1.png"
+          "src": "assets//js-logo-1-1.png"
         },
         {
           "name": "NODE",
           "color": "bg-green-600",
-          "src": "public//assets//node-logo-1.png"
+          "src": "assets//node-logo-1.png"
         },
         {
           "name": "REACT",
           "color": "bg-blue-500",
-          "src": "public//assets//Rectangle-35.png"
+          "src": "assets//Rectangle-35.png"
         },
         {
           "name": "REDUX",
           "color": "bg-purple-500",
-          "src": "public//assets//Group-101.png"
+          "src": "assets//Group-101.png"
         },
         {
           "name": "VS CODE",
           "color": "bg-gray-700",
-          "src": "public//assets//Rectangle-34.png"
+          "src": "assets//Rectangle-34.png"
         },
         {
           "name": "FIGMA",
           "color": "bg-pink-500",
-          "src": "public//assets//figma-logo-1.png"
+          "src": "assets//figma-logo-1.png"
         }
       ],
       "profileTitleBasic": "Kişisel Bilgiler",
@@ -185,10 +189,13 @@
         {
           "name": "Witflix | Netflix Clone",
           "image": "public\\assets\\Rectangle-41-1.png",
-          "description": "HTML ve CSS kullanarak oluşturulmuş statik bir web sitesidir. Responsive tasarımı ile farklı ekran boyutlarına uyum sağlamaktadır. CSS Flexbox ve Grid kullanarak layout oluşturmuştur. Ayrıca CSS Animasyonlar kullanarak siteye hareketlilik katmıştır.",     
+          "description": "HTML ve CSS kullanarak oluşturulmuş statik bir web sitesidir. Responsive tasarımı ile farklı ekran boyutlarına uyum sağlamaktadır. CSS Flexbox ve Grid kullanarak layout oluşturmuştur. Ayrıca CSS Animasyonlar kullanarak siteye hareketlilik katmıştır.",
           "links": [
             { "label": "View Site", "url": "https://example.com" },
-            { "label": "Github", "url": "https://github.com/dilara-yildir/W-T1024-Witflix" }
+            {
+              "label": "Github",
+              "url": "https://github.com/dilara-yildir/W-T1024-Witflix"
+            }
           ]
         },
         {
@@ -197,33 +204,36 @@
           "description": "React kullanarak dinamik bir şekilde oluşturulmuş Single Page Application (SPA) projesidir. Veri yönetimini event handler ve state yönetimi ile sağlamaktadır. Validasyonlar kullanarak veri doğrulaması yapmaktadır. Pizza siparişini Axios request simülasyonu ile gerçekleştirmektedir. Responsive tasarımı ile farklı ekran boyutlarına uyum sağlamaktadır",
           "links": [
             { "label": "View Site", "url": "https://example.com" },
-            { "label": "Github", "url": "https://github.com/dilara-yildir/fsweb-s8-challenge-pizza" }
+            {
+              "label": "Github",
+              "url": "https://github.com/dilara-yildir/fsweb-s8-challenge-pizza"
+            }
           ]
         }
       ],
       "footer": {
         "title": "Bana Ulaşın!",
         "description": "Herhangi bir sorunuz, öneriniz ya da sadece sohbet etmek istediğiniz bir konu mu var? Mesajınızı bekliyorum!",
-        "email":"larayildir03@gmail.com",
+        "email": "larayildir03@gmail.com",
         "links": [
           {
-            "src": "public//assets//twitter1.png",
-            "src2": "public//assets//twitter2.png",
+            "src": "assets//twitter1.png",
+            "src2": "assets//twitter2.png",
             "url": "https://github.com/dilara-yildir"
           },
           {
-            "src": "public//assets//codepen.png",
-            "src2": "public//assets//codepen2.png",
+            "src": "assets//codepen.png",
+            "src2": "assets//codepen2.png",
             "url": "https://github.com/dilara-yildir"
           },
           {
-            "src": "public//assets//at-sign.png",
-            "src2": "public//assets//at-sign2.png",
+            "src": "assets//at-sign.png",
+            "src2": "assets//at-sign2.png",
             "url": "https://github.com/dilara-yildir"
           },
           {
-            "src": "public//assets//instagram.png",
-            "src2": "public//assets//instagram2.png",
+            "src": "assets//instagram.png",
+            "src2": "assets//instagram2.png",
             "url": "https://github.com/dilara-yildir"
           }
         ]
