@@ -13,19 +13,25 @@ const mainData = fetchData(); */
 // Provider bileşeni
 export const ThemeProvider = ({ children }) => {
   const [darkMode, setDarkMode] = useState(
-    localStorage.getItem("darkMode") !== "" &&
-      localStorage.getItem("darkMode") === "false"
+    localStorage.getItem("darkMode") === "false" ||
+      localStorage.getItem("darkMode") === "" ||
+      localStorage.getItem("darkMode") === null
       ? false
       : true
   );
   const [languageData, setLanguageData] = useState(
-    localStorage.getItem("selectedLanguage") === "en" ? data[0].en : data[1].tr
+    localStorage.getItem("selectedLanguage") === "en" ||
+      localStorage.getItem("selectedLanguage") === "" ||
+      localStorage.getItem("selectedLanguage") === null
+      ? data[0].en
+      : data[1].tr
   );
   const [selectedLanguage, setSelectedLanguage] = useState(
-    localStorage.getItem("selectedLanguage") !== "" &&
-      localStorage.getItem("selectedLanguage") === "tr"
-      ? "tr"
-      : "en"
+    localStorage.getItem("selectedLanguage") === "en" ||
+      localStorage.getItem("selectedLanguage") === "" ||
+      localStorage.getItem("selectedLanguage") === null
+      ? "en"
+      : "tr"
   );
 
   useEffect(() => {
