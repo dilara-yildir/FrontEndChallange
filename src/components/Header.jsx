@@ -65,8 +65,8 @@ export default function Header() {
                 <img
                   src={
                     darkMode
-                      ? "src/assets/Github-button-2.png"
-                      : "src/assets/Github-button.png"
+                      ? "public/assets/Github-button-2.png"
+                      : "public/assets/Github-button.png"
                   }
                   alt="GitHub"
                   className="w-50 h-50 mr-2"
@@ -81,8 +81,8 @@ export default function Header() {
                 <img
                   src={
                     darkMode
-                      ? "src/assets/Linkedin-button-2.png"
-                      : "src/assets/Linkedin-button.png"
+                      ? "public/assets/Linkedin-button-2.png"
+                      : "public/assets/Linkedin-button.png"
                   }
                   alt="LinkedIn"
                   className="w-50 h-50 mr-2"
@@ -94,7 +94,7 @@ export default function Header() {
           {/* Sağ Taraf */}
           <div className="image-container flex-1 flex justify-center">
             <img
-              src="src/assets/hero-right.png"
+              src="public/assets/hero-right.png"
               alt="Developer"
               className="developer-image w-full max-w-sm md:max-w-md"
             />

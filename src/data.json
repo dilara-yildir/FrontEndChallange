@@ -19,32 +19,32 @@
         {
           "name": "JAVASCRIPT",
           "color": "bg-yellow-400",
-          "src": "src//assets//js-logo-1-1.png"
+          "src": "public//assets//js-logo-1-1.png"
         },
         {
           "name": "NODE",
           "color": "bg-green-600",
-          "src": "src//assets//node-logo-1.png"
+          "src": "public//assets//node-logo-1.png"
         },
         {
           "name": "REACT",
           "color": "bg-blue-500",
-          "src": "src//assets//Rectangle-35.png"
+          "src": "public//assets//Rectangle-35.png"
         },
         {
           "name": "REDUX",
           "color": "bg-purple-500",
-          "src": "src//assets//Group-101.png"
+          "src": "public//assets//Group-101.png"
         },
         {
           "name": "VS CODE",
           "color": "bg-gray-700",
-          "src": "src//assets//Rectangle-34.png"
+          "src": "public//assets//Rectangle-34.png"
         },
         {
           "name": "FIGMA",
           "color": "bg-pink-500",
-          "src": "src//assets//figma-logo-1.png"
+          "src": "public//assets//figma-logo-1.png"
         }
       ],
       "profileTitleBasic": "Basic Information",
@@ -68,7 +68,7 @@
         {
           "name": "Order Pizza Website",
           "description": "This is a dynamically created Single Page Application (SPA) project built using React. Data management is handled through event handlers and state management. It performs data validation using validation techniques and simulates pizza orders via Axios requests.",
-          "image": "src\\assets\\Rectangle-41-1.png",
+          "image": "public\\assets\\Rectangle-41-1.png",
           "links": [
             { "label": "View Site", "url": "https://example.com" },
             { "label": "Github", "url": "https://github.com/dilara-yildir" }
@@ -77,7 +77,7 @@
         {
           "name": "WitFlix | Netflix Clone",
           "description": "A simple, customizable minimal setup cookie plugin...",
-          "image": "src\\assets\\Rectangle-41.png",
+          "image": "public\\assets\\Rectangle-41.png",
           "links": [
             { "label": "View Site", "url": "https://example.com" },
             { "label": "Github", "url": "https://github.com/dilara-yildir" }
@@ -90,23 +90,23 @@
         "email": "larayildir03@gmail.com",
         "links": [
           {
-            "src": "src//assets//twitter1.png",
-            "src2": "src//assets//twitter2.png",
+            "src": "public//assets//twitter1.png",
+            "src2": "public//assets//twitter2.png",
             "url": "https://github.com/dilara-yildir"
           },
           {
-            "src": "src//assets//codepen.png",
-            "src2": "src//assets//codepen2.png",
+            "src": "public//assets//codepen.png",
+            "src2": "public//assets//codepen2.png",
             "url": "https://github.com/dilara-yildir"
           },
           {
-            "src": "src//assets//at-sign.png",
-            "src2": "src//assets//at-sign2.png",
+            "src": "public//assets//at-sign.png",
+            "src2": "public//assets//at-sign2.png",
             "url": "https://github.com/dilara-yildir"
           },
           {
-            "src": "src//assets//instagram.png",
-            "src2": "src//assets//instagram2.png",
+            "src": "public//assets//instagram.png",
+            "src2": "public//assets//instagram2.png",
             "url": "https://github.com/dilara-yildir"
           }
         ]
@@ -136,32 +136,32 @@
         {
           "name": "JAVASCRIPT",
           "color": "bg-yellow-400",
-          "src": "src//assets//js-logo-1-1.png"
+          "src": "public//assets//js-logo-1-1.png"
         },
         {
           "name": "NODE",
           "color": "bg-green-600",
-          "src": "src//assets//node-logo-1.png"
+          "src": "public//assets//node-logo-1.png"
         },
         {
           "name": "REACT",
           "color": "bg-blue-500",
-          "src": "src//assets//Rectangle-35.png"
+          "src": "public//assets//Rectangle-35.png"
         },
         {
           "name": "REDUX",
           "color": "bg-purple-500",
-          "src": "src//assets//Group-101.png"
+          "src": "public//assets//Group-101.png"
         },
         {
           "name": "VS CODE",
           "color": "bg-gray-700",
-          "src": "src//assets//Rectangle-34.png"
+          "src": "public//assets//Rectangle-34.png"
         },
         {
           "name": "FIGMA",
           "color": "bg-pink-500",
-          "src": "src//assets//figma-logo-1.png"
+          "src": "public//assets//figma-logo-1.png"
         }
       ],
       "profileTitleBasic": "Kişisel Bilgiler",
@@ -184,7 +184,7 @@
       "projects": [
         {
           "name": "WitFlix | Netflix Clone",
-          "image": "src\\assets\\Rectangle-41-1.png",
+          "image": "public\\assets\\Rectangle-41-1.png",
           "description": "",
           "links": [
             { "label": "View Site", "url": "https://example.com" },
@@ -193,7 +193,7 @@
         },
         {
           "name": "Pizza Sipariş Sitesi",
-          "image": "src\\assets\\Rectangle-41.png",
+          "image": "public\\assets\\Rectangle-41.png",
           "description": "React kullanarak dinamik bir şekilde oluşturulmuş Single Page Application (SPA) projesidir. Veri yönetimini event handler ve state yönetimi ile sağlamaktadır. Validasyonlar kullanarak veri doğrulaması yapmaktadır. Pizza siparişini Axios request simülasyonu ile gerçekleştirmektedir.",
           "links": [
             { "label": "View Site", "url": "https://example.com" },
@@ -207,23 +207,23 @@
         "email":"larayildir03@gmail.com",
         "links": [
           {
-            "src": "src//assets//twitter1.png",
-            "src2": "src//assets//twitter2.png",
+            "src": "public//assets//twitter1.png",
+            "src2": "public//assets//twitter2.png",
             "url": "https://github.com/dilara-yildir"
           },
           {
-            "src": "src//assets//codepen.png",
-            "src2": "src//assets//codepen2.png",
+            "src": "public//assets//codepen.png",
+            "src2": "public//assets//codepen2.png",
             "url": "https://github.com/dilara-yildir"
           },
           {
-            "src": "src//assets//at-sign.png",
-            "src2": "src//assets//at-sign2.png",
+            "src": "public//assets//at-sign.png",
+            "src2": "public//assets//at-sign2.png",
             "url": "https://github.com/dilara-yildir"
           },
           {
-            "src": "src//assets//instagram.png",
-            "src2": "src//assets//instagram2.png",
+            "src": "public//assets//instagram.png",
+            "src2": "public//assets//instagram2.png",
             "url": "https://github.com/dilara-yildir"
           }
         ]

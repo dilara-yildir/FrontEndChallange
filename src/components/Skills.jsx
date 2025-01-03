@@ -42,7 +42,7 @@ export default function Skills() {
             {/* JavaScript */}
             <div className="flex justify-center">
               <img
-                src="src/assets/js-logo-1-1.png"
+                src="public/assets/js-logo-1-1.png"
                 alt="JavaScript"
                 className="w-24 h-24"
               />
@@ -51,7 +51,7 @@ export default function Skills() {
             {/* Node.js */}
             <div className="flex justify-center">
               <img
-                src="src/assets/node-logo-1.png"
+                src="public/assets/node-logo-1.png"
                 alt="Node.js"
                 className="w-24 h-24"
               />
@@ -60,7 +60,7 @@ export default function Skills() {
             {/* React */}
             <div className="flex justify-center">
               <img
-                src="src/assets/Rectangle-35.png"
+                src="public/assets/Rectangle-35.png"
                 alt="React"
                 className="w-24 h-24"
               />
@@ -69,7 +69,7 @@ export default function Skills() {
             {/* Redux */}
             <div className="flex justify-center">
               <img
-                src="src/assets/Group-101.png"
+                src="public/assets/Group-101.png"
                 alt="Redux"
                 className="w-24 h-24"
               />
@@ -78,7 +78,7 @@ export default function Skills() {
             {/* VS Code */}
             <div className="flex justify-center">
               <img
-                src="src/assets/Rectangle-34.png"
+                src="public/assets/Rectangle-34.png"
                 alt="VS Code"
                 className="w-24 h-24"
               />
@@ -87,7 +87,7 @@ export default function Skills() {
             {/* Figma */}
             <div className="flex justify-center">
               <img
-                src="src/assets/figma-logo-1.png"
+                src="public/assets/figma-logo-1.png"
                 alt="Figma"
                 className="w-24 h-24"
               />
