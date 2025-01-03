@@ -39,7 +39,7 @@ export default function Profile() {
           {/* Orta: Görsel */}
           <div className="flex w-50 h-50 justify-center">
             <img
-              src="public/assets/profile.png"
+              src="assets/profile.png"
               alt="Profile"
               className="rounded-lg  shadow-lg"
             />
