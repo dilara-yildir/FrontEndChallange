@@ -33,7 +33,7 @@ export default function Skills() {
         {/* Responsive Durum */}
         <div className="block md:hidden">
           {/* Skills Başlığı */}
-          <h3 className="text-4xl font-bold text-purple-900 text-center mb-6">
+          <h3 className="text-4xl font-bold text-customBlue dark:text-customTitleSkillDark text-center mb-6">
             Skills
           </h3>
 
