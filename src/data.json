@@ -71,16 +71,16 @@
           "image": "public\\assets\\Rectangle-41-1.png",
           "links": [
             { "label": "View Site", "url": "https://example.com" },
-            { "label": "Github", "url": "https://github.com/dilara-yildir" }
+            { "label": "Github", "url": "https://github.com/dilara-yildir/fsweb-s8-challenge-pizza" }
           ]
         },
         {
           "name": "WitFlix | Netflix Clone",
-          "description": "A simple, customizable minimal setup cookie plugin...",
+          "description": "A static website built using HTML and CSS. It features a responsive design that adapts to different screen sizes. The layout is created using CSS Flexbox and Grid. Additionally, CSS animations are utilized to add interactivity and motion to the site.",
           "image": "public\\assets\\Rectangle-41.png",
           "links": [
             { "label": "View Site", "url": "https://example.com" },
-            { "label": "Github", "url": "https://github.com/dilara-yildir" }
+            { "label": "Github", "url": "https://github.com/dilara-yildir/W-T1024-Witflix" }
           ]
         }
       ],
@@ -183,21 +183,21 @@
       "projectsTitle": "Projeler",
       "projects": [
         {
-          "name": "WitFlix | Netflix Clone",
+          "name": "Witflix | Netflix Clone",
           "image": "public\\assets\\Rectangle-41-1.png",
-          "description": "",
+          "description": "HTML ve CSS kullanarak oluşturulmuş statik bir web sitesidir. Responsive tasarımı ile farklı ekran boyutlarına uyum sağlamaktadır. CSS Flexbox ve Grid kullanarak layout oluşturmuştur. Ayrıca CSS Animasyonlar kullanarak siteye hareketlilik katmıştır.",     
           "links": [
             { "label": "View Site", "url": "https://example.com" },
-            { "label": "Github", "url": "https://github.com/dilara-yildir" }
+            { "label": "Github", "url": "https://github.com/dilara-yildir/W-T1024-Witflix" }
           ]
         },
         {
           "name": "Pizza Sipariş Sitesi",
           "image": "public\\assets\\Rectangle-41.png",
-          "description": "React kullanarak dinamik bir şekilde oluşturulmuş Single Page Application (SPA) projesidir. Veri yönetimini event handler ve state yönetimi ile sağlamaktadır. Validasyonlar kullanarak veri doğrulaması yapmaktadır. Pizza siparişini Axios request simülasyonu ile gerçekleştirmektedir.",
+          "description": "React kullanarak dinamik bir şekilde oluşturulmuş Single Page Application (SPA) projesidir. Veri yönetimini event handler ve state yönetimi ile sağlamaktadır. Validasyonlar kullanarak veri doğrulaması yapmaktadır. Pizza siparişini Axios request simülasyonu ile gerçekleştirmektedir. Responsive tasarımı ile farklı ekran boyutlarına uyum sağlamaktadır",
           "links": [
             { "label": "View Site", "url": "https://example.com" },
-            { "label": "Github", "url": "https://github.com/dilara-yildir" }
+            { "label": "Github", "url": "https://github.com/dilara-yildir/fsweb-s8-challenge-pizza" }
           ]
         }
       ],

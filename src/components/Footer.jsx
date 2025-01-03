@@ -29,7 +29,9 @@ export default function Footer() {
           >
             <img
               src={
-                window.matchMedia("(prefers-color-scheme: dark)").matches
+                window.matchMedia(
+                  "(prefers-color-scheme: dark) "
+                ).matches
                   ? links.src2
                   : links.src
               }
