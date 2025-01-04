@@ -82,7 +82,7 @@
           "description": "A static website built using HTML and CSS. It features a responsive design that adapts to different screen sizes. The layout is created using CSS Flexbox and Grid. Additionally, CSS animations are utilized to add interactivity and motion to the site.",
           "image": "assets\\Rectangle-41.png",
           "links": [
-            { "label": "View Site", "url": "https://example.com" },
+            { "label": "View Site", "url": "https://w-t1024-witflix.vercel.app/" },
             {
               "label": "Github",
               "url": "https://github.com/dilara-yildir/W-T1024-Witflix"
@@ -191,7 +191,7 @@
           "image": "assets\\Rectangle-41-1.png",
           "description": "HTML ve CSS kullanarak oluşturulmuş statik bir web sitesidir. Responsive tasarımı ile farklı ekran boyutlarına uyum sağlamaktadır. CSS Flexbox ve Grid kullanarak layout oluşturmuştur. Ayrıca CSS Animasyonlar kullanarak siteye hareketlilik katmıştır.",
           "links": [
-            { "label": "View Site", "url": "https://example.com" },
+            { "label": "View Site", "url": "https://w-t1024-witflix.vercel.app/" },
             {
               "label": "Github",
               "url": "https://github.com/dilara-yildir/W-T1024-Witflix"
