@@ -94,9 +94,9 @@ export default function Header() {
           {/* Sağ Taraf */}
           <div className="image-container flex-1 flex justify-center">
             <img
-              src="assets/hero-right.png"
+              src="assets/me-foto2.jpg"
               alt="Developer"
-              className="developer-image w-full max-w-sm md:max-w-md"
+              className="developer-image w-full max-w-sm md:max-w-md  rounded-lg"
             />
           </div>
         </div>
